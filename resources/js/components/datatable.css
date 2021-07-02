@@ -1,0 +1,46 @@
+.table-area {
+    width: 100%;
+}
+
+#title {
+    text-align: center;
+    font-family: arial, sans-serif;
+    margin-top: 5%;
+}
+
+.table_format {
+    text-align: center;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    border: 3px solid #ddd;
+    width: 90%;
+    margin: 5% 5% 5% 5%;
+}
+
+.table_format td,
+.table_format {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.table_format tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.table_format tr:hover {
+    background-color: #ddd;
+}
+
+.table_format th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+}
+
+.printarea {
+    justify-content: center;
+    align-items: center;
+    margin-left: 50%;
+}
